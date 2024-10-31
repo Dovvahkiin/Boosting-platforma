@@ -1,0 +1,128 @@
+.vhSlika
+{
+    position: relative;
+    background: url("../slike/licara.jpg");
+    background-size:120%;
+    opacity: 70%;
+    overflow: hidden;
+}
+
+
+.naruciBoostForma {
+    margin: 5% 0%;
+    position: relative;
+    left: 33%;
+    top: 20%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 33%;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--obeZute);
+    z-index: 1;
+    filter: blur(0px);
+
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--obeZute);
+}
+
+.naruciForma {
+    display: flex;
+    flex-direction: column;
+}
+
+.naruciForma label {
+    margin-bottom: 5px;
+    color: var(--obeZute);
+}
+
+.naruciForma input,
+.naruciForma textarea,
+.naruciForma select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--obeZute);
+    border-radius: 4px;
+    background-color: var(--obeZute);
+    color: var(--obeZelene);
+}
+.naruciForma select
+{
+    cursor: pointer;
+}
+
+.naruciForma button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--obeZelene);
+    color: var(--obeZute);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.naruciForma button:hover {
+    background-color: var(--obeZute);
+    color: var(--obeZelene);
+}
+
+.greska{
+    color:red;
+  }
+  
+  .greska-pri-unosu{
+    border-bottom: 1px solid red;
+  }
+
+
+
+@media only screen and (max-width: 1300px)
+{
+    .naruciBoostForma {
+        margin: 5% 0%;
+        position: relative;
+        left: 25%;
+        top: 20%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 50%;
+        width: 100%;
+        backdrop-filter: blur(20px);
+        border: 1px solid var(--obeZute);
+        z-index: 1;
+        filter: blur(0px);
+    
+    
+    }
+}
+
+@media only screen and (max-width: 785px)
+{
+    .naruciBoostForma {
+        margin: 5% 0%;
+        position: relative;
+        left: 12.5%;
+        top: 20%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 75%;
+        width: 100%;
+        backdrop-filter: blur(20px);
+        border: 1px solid var(--obeZute);
+        z-index: 1;
+        filter: blur(0px);
+    }
+    h1
+    {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,87 @@
+.onamaSlika
+{
+    opacity: 70%;
+}
+
+.onamaFooter
+{
+    padding-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;    
+    color: var(--obeZute)!important;
+    background-color: var(--pozadina);
+}
+.onamaFooter>p>a
+{
+    color: var(--obeZute)!important;
+}
+.onamaFooter>p
+{
+    display: inline-block;
+}
+#slajderSlika {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    flex-direction: row;
+    padding-bottom: 1%;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3%;
+
+  }
+
+  .velicinaSlike
+  { 
+    height: 50vh;
+    width: 100%;
+    border: 2px solid var(--primarna)
+
+  }
+.dugmePomeraj
+{
+    height: 100px!important;
+    width: 100px!important;
+    background-color: var(--primarna);
+    color: var(--sekundarna)!important;
+    border: 2px solid var(--primarna);
+}
+.dugmePomeraj:hover
+{
+ background-color: var(--primarna);
+ border: none;
+}
+
+.dugmePomeraj:focus
+{
+    background-color: var(--primarna);
+    border: none;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .onama>p
+    {
+        font-size: 1.3rem;
+    }
+    #slajderSlika
+    {
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .velicinaSlike
+    {
+        margin: 20px 0px;
+    }
+}
+.klasikaCrtaa
+{
+    border: 1px solid var(--primarna);
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+}

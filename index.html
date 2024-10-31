@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Fury | Boosting Platform - Najbolji sajt za naručivanje boostova za world of warcraft.">
+    <meta name="keywords" content="warcraft, boosting, fury, brzo, jeftino, efikasno, raid, level">
+    <meta name="author" content="Bozidar Tovarnicki">
+    <link rel="stylesheet" href="css/glavni.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="/slike/logo.png">
+    <title>Fury | Boosting Platform</title>
+
+</head>
+
+<body style="background-color: var(--pozadina);">
+
+    <nav class="glavniMeni">
+        <a href="index.html"><img src="../slike/logo.png" alt="" class="logoStr"></a>
+
+        <div class="slajderTeme">
+            <p>Promenite Temu:</p>
+            <label for="checkbox" class="slajderTemeZez">
+                <input type="checkbox" id="checkbox">
+                <div class="okrugli slajder"></div>
+            </label>
+                <p>Muzika:</p>
+                <img class="mutiranje" src="slike/mute.png" alt="Ikonica za pustanje muzike">
+        </div>
+
+        <div class="sadrzajMenija" id="sadrzajMenija">
+            <a href="index.html">Početna</a>
+            <a href="stranice/onama.html" target="_blank">O nama</a>
+            <a href="stranice/naruciBoost.html" target="_blank">Naruči boost</a>
+        </div>
+        
+        <button class="navigacija-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+    </nav>
+
+    <div class="bloker" id="gas">
+        <a  href="index.html">Početna</a>
+        <a href="stranice/onama.html" target="_blank">O nama</a>
+        <a href="stranice/naruciBoost.html" target="_blank">Naruči boost</a>
+    </div>
+
+
+    <img class="glavnaSlika" src="slike/banner.jpg" alt="Slika na banneru">
+
+    <div class="glavnaStrana">
+        <h1 class="glavnih1">DOBRODOŠLI U <br> WORLD OF WARCRAFT <br>BOOSTING SERVIS</h1>
+        <button class="wotlk" id="wotlkID" onclick="klikDoLinka()" target="_blank">CINEMATIC</button>
+    </div>
+    
+    <div class="promo">
+        <h1>NAŠE USLUGE</h1>
+        <hr class="klasikaCrta">
+        <p><i>U priloženom imate ponude naših boosting usluga dostupne svim igračima bez obzira na zonu igrača u kojoj se nalazi. Naši agenti poseduju karaktere na evropskim, američkim i azijskim serverima. Bez obzira u kojoj zoni igrate, cena ostaje ista.</i></p>
+        <div class="listaUsluga">
+            
+            <a href="stranice/naruciBoost.html" id="kupiLevel" target="_blank">
+                <div class="slikice">
+                    <h1>LEVEL BOOST</h1>
+                    <div class="slikaBoost">
+                        <img class="slikeUsluga" src="slike/levelboost.jpeg" alt="Slika usluga za boostovanje levela">
+                    <p>Pružamo uslugu podizanja nivoa na maksimalni u veoma kratko vreme! Uz specijalnu ponudu možete dobiti paket podizanja nivo na classic serveru i serveru najnovije ekspanzije po pristupačnoj ceni.</p>
+                    </div>
+                </div> 
+            </a>   
+        
+            <a href="stranice/naruciBoost.html" id="kupiRaid" target="_blank">
+                <div class="slikice">
+                    <h1>RAID BOOST</h1>
+                    <div class="slikaBoost">
+                        <img class="slikeUsluga" src="slike/raid.jpg" alt="Slika usluga za boostovanje raida">
+                        <p>Vodimo vas kroz raid za koji se odlučite na <i>MYTHIC</i> težini uz to sva operma i kolekcionarske stvari vama pripadaju.</p>
+                    </div>
+                </div> 
+            </a>   
+        
+            <a href="stranice/naruciBoost.html" id="kupiDung" target="_blank">
+                <div class="slikice">
+                    <h1>MYTHIC + BOOST</h1>
+                    <div class="slikaBoost">
+                        <img class="slikeUsluga" src="slike/mplus.png" alt="Slika usluga za boostovanje dungeona">
+                    <p>Provodimo vas kroz sve tamnice na <i>MYTHIC 10+ NIVOA</i> težine. Sva oprema i kolekcionarske stvari vama pripadaju.</p>
+                    </div>
+                </div> 
+            </a>   
+
+            </div>
+    </div>    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="skripte/menjacTeme.js"></script>
+    <script src="skripte/muzika.js"></script>
+    <script src="skripte/index.js"></script>
+    <script src="skripte/hamburger.js"></script>
+
+</body>
+<footer>
+
+    <div class="footer">
+    <p><a href="mailto:fury@boost.com"> E-MAIL </a></p>  <span>&nbsp | &nbsp</span>
+    <p><a href="https://www.instagram.com" target="_blank"> INSTAGRAM </a></p>  <span>&nbsp | &nbsp</span>
+    <p><a href="tel:123123123"> TELEFON </a></p> 
+    <br>
+        <p>Copyright © Tovarnicki™ 2024. Sva prava su zaštićena.</p>
+    </div>
+
+</footer>
+</html>

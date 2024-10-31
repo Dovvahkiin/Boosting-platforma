@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Fury | Boosting Platform - Najbolji sajt za naručivanje boostova za world of warcraft.">
+    <meta name="keywords" content="warcraft, boosting, fury, brzo, jeftino, efikasno, raid, level">
+    <meta name="author" content="Bozidar Tovarnicki">
+    <link rel="stylesheet" href="../css/glavni.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/naruci.css">
+    <link rel="stylesheet" href="../css/onama.css">
+    <link rel="icon" type="image/x-icon" href="/slike/logo.png">
+    <title>Fury | Naruci Boost</title>
+</head>
+
+<body style="background-color: var(--pozadina);">
+
+    <nav class="glavniMeni">
+        <a href="index.html"><img src="../slike/logo.png" alt="" class="logoStr"></a>
+        <div class="slajderTeme">
+            <p>Promenite Temu:</p>
+            <label for="checkbox" class="slajderTemeZez">
+                <input type="checkbox" id="checkbox">
+                <div class="okrugli slajder"></div>
+            </label>
+        </div>
+        <div class="sadrzajMenija">
+            <a href="../index.html">Početna</a>
+            <a href="onama.html" >O nama</a>
+            <a href="naruciBoost.html">Naruči boost</a>
+        </div>
+
+        <button class="navigacija-toggle">
+            <span class="hamburger"></span>
+        </button>
+    </nav>
+
+<div class="bloker" id="gas">
+    <a href="../index.html">Početna</a>
+    <a href="onama.html" >O nama</a>
+    <a href="naruciBoost.html">Naruči boost</a>
+</div>
+
+    <div class="vhSlika" alt="Pozadinska slika forme">
+            <div class="naruciBoostForma">
+
+                <h1>NARUČI BOOSTING!</h1>
+
+                <form class="naruciForma" id="formaNaruci">
+
+                    <label for="ime">Ime:</label>
+                    <input type="text" id="ime" placeholder="Unesite vaše ime:" >
+                    <small class="greska" id="ime-greska"></small>
+
+                    <!-- identifikatori su nazvani na engleskom zbog elemenata iz igrice koji su na engleskom jeziku -->
+
+                    <label for="naruci">Tip Boosta:</label>
+                    <select id="naruci">
+                        <option value="levelBoost">LEVEL BOOST</option>
+                        <option value="raidBoost">RAID BOOST</option>
+                        <option value="mythicBoost">MYTHIC + BOOST</option>
+                    </select>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Unesite vašu email adresu:">
+                    <small class="greska" id="email-greska"></small>
+                    
+                    <label for="poruka">Poruka:</label>
+                    <textarea id="poruka" rows="7" placeholder="Napišite poruku za nas ukoliko imate poseban zahtev:"></textarea>
+                    
+                    <button type="submit">Pošaljite</button>
+                </form>
+        </div>
+    </div>
+            
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../skripte/menjacTeme.js"></script>
+    <script src="../skripte/index.js"></script>
+    <script src="../skripte/slajder.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../skripte/validacije.js"></script>
+    <script src="../skripte/hamburger.js"></script>
+
+
+
+</body>
+<footer>
+
+    <div class="onamaFooter">
+        <p><a href="mailto:fury@boost.com"> E-MAIL </a></p>  <span>&nbsp | &nbsp</span>
+        <p><a href="https://www.instagram.com" target="_blank"> INSTAGRAM </a></p>  <span>&nbsp | &nbsp</span>
+        <p><a href="tel:123123123"> TELEFON </a></p> 
+        <br>
+    
+            <p>Copyright © Tovarnicki™ 2024. Sva prava su zaštićena.</p>
+        </div>
+
+</footer>
+</html>
